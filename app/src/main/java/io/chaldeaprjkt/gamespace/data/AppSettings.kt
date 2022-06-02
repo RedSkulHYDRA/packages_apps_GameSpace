@@ -62,7 +62,7 @@ class AppSettings @Inject constructor(private val context: Context) {
         set(value) = db.edit().putString(KEY_CALLS_MODE, value.toString()).apply()
 
     var ringerMode: Int
-        get() = db.getString(KEY_RINGER_MODE, "0").toInt()
+        get() = db.getString(KEY_RINGER_MODE, "3").toInt()
         set(value) = db.edit().putString(KEY_RINGER_MODE, value.toString()).apply()
 
     companion object {
