@@ -58,4 +58,9 @@
     <string name="per_app_angle_summary">Using ANGLE renderer instead of native GLES drivers.\nWARNING!! May breaks game graphics, use with caution!</string>
     <string name="cant_find_angle_pkg">ANGLE is not available on your system</string>
     <string name="per_app_unregister">Remove %1$s from library</string>
+
+    <string name="in_game_calls_title">In-game call</string>
+    <string name="in_game_calls_no_action">No action</string>
+    <string name="in_game_calls_auto_answer">Auto answer</string>
+    <string name="in_game_calls_auto_reject">Auto reject</string>
 </resources>
